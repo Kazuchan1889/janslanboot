@@ -44,3 +44,10 @@
 .contant_box_404 {
   margin-top: -50px;
 }
+
+.usrLPBack{
+  background-image: url("./asset/background.png");
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+}

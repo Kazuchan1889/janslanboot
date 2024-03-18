@@ -2,10 +2,26 @@ import React from "react";
 import LoginLogo from "../asset/Group 2286.png"
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
+import { useNavigate } from "react-router-dom";
 // import { IconButton } from "@mui/material";
 // import { Visibility, VisibilityOff } from "@mui/icons-material";
 
+
+
 function Login() {
+
+    const navigate = useNavigate();
+
+    const sub = async (e) => {
+        e.preventDefault();
+        try{
+            navigate("/adminDashboard");
+            alert("Login Success");
+        }catch{
+            console.err("Wrong")
+        }
+    }
+
     return (
         <section>
             <div className="h-screen w-full flex justify-center items-center">
@@ -17,7 +33,7 @@ function Login() {
                         <h1 className="font-bold text-3xl">Sign In</h1>
                     </div>
                     <div className="w-full pl-12 pr-12">
-                        <form action="">
+                        <form action="" onSubmit={ sub }>
                             <div className="mb-4 mt-4">
                                 <TextField
                                     type="text"

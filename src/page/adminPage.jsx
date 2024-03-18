@@ -1,10 +1,14 @@
 import React from "react";
+import Sidebar from "../component/sidebar";
 
 function AdminPage(){
     return(
-        <div>
-
-        </div>
+        <section>
+            <Sidebar />
+            <div>
+                
+            </div>
+        </section>
     )
 }
 
