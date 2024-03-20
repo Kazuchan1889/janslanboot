@@ -9,7 +9,7 @@ function NavBar() {
                 <div className="w-8">
                     <img src={Logos} alt="" />
                 </div>
-                <div className="flex w-1/3 justify-between">
+                <div className="flex w-1/3 justify-between font-bold">
                     <div>
                         <a href="">Home</a>
                     </div>
@@ -22,7 +22,7 @@ function NavBar() {
                 </div>
                 <div className="flex w-32 justify-between">
                     <h2>UserName</h2>
-                    <div className="w-8 ">
+                    <div className="h-8">
                        <AccountCircleIcon />
                     </div>
                 </div>

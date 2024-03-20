@@ -39,6 +39,7 @@ function Login() {
                                     type="text"
                                     label="Username"
                                     size="small"
+                                    required
                                     fullWidth
                                 />
                             </div>
@@ -48,6 +49,7 @@ function Login() {
                                     label="Password"
                                     size="small"
                                     fullWidth
+                                    required
                                 // color="warning"
                                 />
                             </div>
