@@ -1,12 +1,15 @@
 import React from "react";
 import Sidebar from "../component/sidebar";
+import AdminContent from "../component/adminContent";
 
-function AdminPage(){
-    return(
+function AdminPage() {
+    return (
         <section>
-            <Sidebar />
-            <div>
-                
+            <div className="flex">
+                <Sidebar />
+                <div className="ml-64 p-4 w-full">
+                    <AdminContent />
+                </div>
             </div>
         </section>
     )
