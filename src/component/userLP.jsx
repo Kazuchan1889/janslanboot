@@ -20,7 +20,7 @@ function UserLP() {
                             DAFTAR
                         </Button>
                     </div>
-                    <div className="w-1/3 mt-32">
+                    <div className="w-1/3 mt-32 mr-4">
                         <img src={Pipel} alt="pipel" />
                     </div>
                 </div>
@@ -43,20 +43,65 @@ function UserLP() {
                     </div>
                 </div>
             </div>
-            <div className="w-full h-screen">
+            <div className="w-full h-full">
                 <div className="h-full p-4 flex flex-col align-center">
                     <div className="font-bold text-3xl">
                         <h1>Daftar Harga</h1>
                     </div>
-                    <div className="pt-4 flex flex-row content-around font-bold text-xl">
-                        <div className="flex flex-col w-1/3">
-                            <h1>Front-End</h1>
+                    <div className="pt-4 flex flex-row content-around text-xl">
+                        <div className="flex flex-col w-1/3 p-4">
+                            <div className="text-3xl mb-4 font-bold">
+                                <h1>Front-End</h1>
+                            </div>
+                            <div className="mb-4">
+                                <p className="text-justify">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
+                                </p>
+                            </div>
+                            <div className="">
+                                <Button
+                                    type="submit"
+                                    variant="contained"
+                                >
+                                    DAFTAR
+                                </Button>
+                            </div>
                         </div>
-                        <div className="flex flex-col w-1/3">
-                            <h1>Full Stack</h1>
+                        <div className="flex flex-col w-1/3 p-4">
+                            <div className="text-3xl mb-4 font-bold">
+                                <h1>Full Stack</h1>
+                            </div>
+                            <div className="mb-4">
+                                <p className="text-justify">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
+                                </p>
+                            </div>
+                            <div className="">
+                                <Button
+                                    type="submit"
+                                    variant="contained"
+                                >
+                                    DAFTAR
+                                </Button>
+                            </div>
                         </div>
-                        <div className="flex flex-col w-1/3">
-                            <h1>Back-End</h1>
+                        <div className="flex flex-col w-1/3 p-4">
+                            <div className="text-3xl mb-4 font-bold">
+                                <h1>Back-End</h1>
+                            </div>
+                            <div className="mb-4">
+                                <p className="text-justify">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
+                                </p>
+                            </div>
+                            <div className="">
+                                <Button
+                                    type="submit"
+                                    variant="contained"
+                                >
+                                    DAFTAR
+                                </Button>
+                            </div>
                         </div>
                     </div>
                 </div>

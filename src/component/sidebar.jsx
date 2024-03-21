@@ -9,7 +9,7 @@ function Sidebar() {
                     <img className='items-center w-14' src={Logo} alt="" />
                 </div>
                 <div className='w-full bg-base-200 flex items-center justify-center p-4'>
-                    <div className='relative'>
+                    <div className='relative '>
                         <img className='ring-2 ring-white rounded-full w-32 h-32' src={profilePic} alt="" />
                         <h1 className='text-center pt-4 font-bold'>Bambang</h1>
                         <h1 className='text-center pt-2'>admin</h1>

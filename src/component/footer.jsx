@@ -14,9 +14,9 @@ function Footer() {
                     <h3 className="text-lg font-semibold mb-4">Links</h3>
                     <ul className="list-none p-0">
                         <li><a href="/" className="text-white hover:text-gray-400">Home</a></li>
-                        <li><a href="/about" className="text-white hover:text-gray-400">About Us</a></li>
-                        <li><a href="/services" className="text-white hover:text-gray-400">Services</a></li>
-                        <li><a href="/contact" className="text-white hover:text-gray-400">Contact Us</a></li>
+                        <li><a href="/" className="text-white hover:text-gray-400">About Us</a></li>
+                        <li><a href="/" className="text-white hover:text-gray-400">Services</a></li>
+                        <li><a href="/" className="text-white hover:text-gray-400">Contact Us</a></li>
                     </ul>
                 </div>
                 <div className="w-full lg:w-1/3 lg:text-left text-center">
