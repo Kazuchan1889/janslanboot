@@ -1,3 +1,5 @@
+
+
 #root {
   text-align: center;
 }
@@ -56,3 +58,348 @@
   background-color: #144272;
   height: 500px;
 }
+.abtback{
+  background-image: url("./asset/background2.png");
+  background-size: cover;
+  width: 100%;
+  height: fit-content;
+}
+
+
+/* aboutcss */
+
+.visi-misi {
+  width: 216px;
+  position: relative;
+  display: inline-block;
+  font-weight: 800;
+  flex-shrink: 0;
+  text-shadow: 1px 0 0#fff, 0 1px 0#fff, -1px 0 0#fff, 0-1px 0#fff;
+}
+.visi-misi-wrapper {
+  width: 1296px;
+  margin: 0 auto; /* Menjadikan elemen terpusat secara horizontal */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+
+  
+
+.integrity-compassion-quality-c {
+  height: 131px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.values-container {
+  width: 272.4px;
+  height: 131px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 58.19999999999982px 0 58px;
+  box-sizing: border-box;
+}
+.mission {
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+}
+.increasing-student-interest {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 29.5px 0 30px;
+}
+.meningkatkan-minat-belajar {
+  align-self: stretch;
+  height: 157px;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.increasing-student-interest-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 10px;
+}
+.frame-wrapper,
+.increasing-student-interest-parent,
+.values-container-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.values-container-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 40px;
+}
+.frame-wrapper {
+  height: 421px;
+  width: 299.2px;
+  align-items: flex-start;
+}
+.frame-child {
+  width: 3px;
+  flex: 1;
+  position: relative;
+  border-right: 3px solid #9b9b9b;
+  box-sizing: border-box;
+}
+.line-wrapper {
+  height: 500px;
+  width: 62.8px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.leading-in-industry {
+  height: 136px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+.v-i-s-i-o-n {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 30px 0 30.300000000000185px;
+}
+.values {
+  align-self: stretch;
+  height: 36px;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.v-i-s-i-o-n-parent {
+  width: 239.7px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.collaboration,
+.compassion,
+.integrity,
+.quality {
+  margin-bottom: 0;
+}
+.integrity-compassion-quality-c2 {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: 32px;
+}
+.integrity-compassion-quality-container {
+  height: 157px;
+  flex: 1;
+  position: relative;
+  font-weight: 300;
+  display: inline-block;
+}
+.integrity-compassion-quality-c1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 21.300000000000185px;
+  text-align: left;
+  font-size: 24px;
+}
+.frame-container,
+.frame-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-group {
+  align-self: stretch;
+  height: 366px;
+  gap: 33px;
+}
+.frame-container {
+  height: 408px;
+  width: 303.3px;
+}
+.frame-item {
+  width: 3px;
+  flex: 1;
+  position: relative;
+  border-right: 3px solid #9b9b9b;
+  box-sizing: border-box;
+}
+.line-container {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 21.399999999999636px 0 0;
+  box-sizing: border-box;
+}
+.kami-berusaha-keras-menjadi-pe,
+.vision {
+  align-self: stretch;
+  position: relative;
+  flex-shrink: 0;
+  debug_commit: f6aba90;
+}
+.kami-berusaha-keras-menjadi-pe {
+  height: 119.2px;
+  max-width: 100%;
+  overflow: hidden;
+}
+.vision {
+  height: 36px;
+  font-weight: 300;
+  display: inline-block;
+}
+.vision-box,
+.vision-box-wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vision-box {
+  flex-direction: column;
+  gap: 7.300000000000182px;
+}
+.vision-box-wrapper {
+  flex-direction: row;
+  padding: 0 18px;
+}
+.kami-berusaha-keras {
+  align-self: stretch;
+  position: relative;
+  font-size: 20px;
+  font-weight: 300;
+}
+.frame-div,
+.frame-parent1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frame-parent1 {
+  align-self: stretch;
+  height: 366.5px;
+  gap: 37px;
+}
+.frame-div {
+  height: 415px;
+  width: 275.7px;
+}
+.about-us,
+.frame-parent {
+  display: flex;
+  color: #000;
+  font-family: Inter;
+}
+.frame-parent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 20px;
+  text-align: center;
+  font-size: 32px;
+}
+.about-us {
+  width: 100%;
+  position: relative;
+  background-color: #e0f4ff;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 12px 59px;
+  box-sizing: border-box;
+  gap: 115px;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 40px;
+}
+@media screen and (max-width: 1200px) {
+  .frame-parent {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .visi-misi {
+    font-size: 32px;
+  }
+  .mission,
+  .values,
+  .vision {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .about-us {
+    gap: 57px 115px;
+    padding-left: 29px;
+    padding-right: 29px;
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .visi-misi {
+    font-size: 24px;
+  }
+  .values-container {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+  .mission {
+    font-size: 19px;
+  }
+  .meningkatkan-minat-belajar {
+    font-size: 16px;
+  }
+  .values-container-parent {
+    gap: 20px 40px;
+  }
+  .integrity-compassion-quality-container,
+  .values {
+    font-size: 19px;
+  }
+  .frame-group {
+    gap: 16px 33px;
+  }
+  .vision {
+    font-size: 19px;
+  }
+  .kami-berusaha-keras {
+    font-size: 16px;
+  }
+  .frame-parent1 {
+    gap: 18px 37px;
+  }
+}
+

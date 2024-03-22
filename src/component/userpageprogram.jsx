@@ -5,7 +5,7 @@ import vec1 from "../asset/Vector.png";
 import vec2 from "../asset/Vector2.png";
 import vec3 from "../asset/Vector3.png";
 import Footer from "./footer";
-function UserLPabout() {
+function UserLPProgram() {
     return (
         <section className="">
             <div className="abtback">
@@ -114,4 +114,4 @@ function UserLPabout() {
     )
 }
 
-export default UserLPabout
+export default UserLPProgram

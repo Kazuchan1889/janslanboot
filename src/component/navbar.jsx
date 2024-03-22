@@ -11,13 +11,13 @@ function NavBar() {
                 </div>
                 <div className="flex w-1/3 justify-between font-bold">
                     <div>
-                        <a href="">Home</a>
+                        <a href="/userDashboard">Home</a>
                     </div>
                     <div>
-                        <a href="">Program</a>
+                        <a href="/Prog">Program</a>
                     </div>
                     <div>
-                        <a href="">About</a>
+                        <a href="/About">About</a>
                     </div>
                 </div>
                 <div className="flex w-32 justify-between">
