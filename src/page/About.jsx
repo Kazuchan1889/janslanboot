@@ -8,7 +8,7 @@ function UserPage(){
         <section>
             <NavBar />
             <div className="w-full">
-                <UserLPAbt />
+                <UserLPAAbt />
             </div>
             
         </section>

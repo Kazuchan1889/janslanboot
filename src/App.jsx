@@ -5,6 +5,7 @@ import AdminPage from './page/adminPage';
 import NotFound from './page/notFound';
 import UserPage from './page/userPage';
 import ProfilePage from './page/profilePage';
+import Abt from './page/About';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path='/adminDashboard' element={<AdminPage />} />
         <Route path='/userDashboard' element={<UserPage />} />
         <Route path='/editProfile' element={<ProfilePage />} />
+        <Route path='/About' element={<Abt />} />
       </Routes>
     </BrowserRouter>
   );
