@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "../component/navbar";
-import Userpprog from "../component/userpageprogram";
+import Userpprog from "../component/userLPProg";
 
 function UserPage(){
     return(

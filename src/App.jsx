@@ -6,6 +6,7 @@ import NotFound from './page/notFound';
 import UserPage from './page/userPage';
 import ProfilePage from './page/profilePage';
 import Abt from './page/About';
+import Prog from './page/program';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/userDashboard' element={<UserPage />} />
         <Route path='/editProfile' element={<ProfilePage />} />
         <Route path='/About' element={<Abt />} />
+       < Route path='/Program' element={<Prog />} />
       </Routes>
     </BrowserRouter>
   );

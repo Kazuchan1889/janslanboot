@@ -7,10 +7,10 @@ function UserLP() {
         <section className="">
             <div className="usrLPBack">
                 <div className="h-full flex flex-row">
-                    <div className="w-2/3 text-left p-8 text-3xl font-bold">
+                    <div className="w-2/3 text-left p-8 text-3xl font-bold text-48px">
                         <h1>Jadilah Developer Profesional</h1>
                         <h1>Bersama HBM Bootcamp</h1>
-                        <p className="mt-8 pr-16 text-2xl">
+                        <p className="mt-8 pr-16 text-3xl">
                             Lebih dari 1200+ lulusan program intensif Dicoding telah mendapatkan pekerjaan. Dapatkan potongan subsidi hingga 9 juta rupiah untuk paket pelatihan React dan Back-End Developer.<br />    Terbatas untuk 5 peserta!
                         </p>
                         <Button

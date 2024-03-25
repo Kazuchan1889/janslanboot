@@ -9,19 +9,19 @@ function NavBar() {
                 <div className="w-8">
                     <img src={Logos} alt="" />
                 </div>
-                <div className="flex w-1/3 justify-between font-bold">
+                <div className="flex w-1/3 justify-between font-bold ">
                     <div>
                         <a href="/userDashboard">Home</a>
                     </div>
                     <div>
-                        <a href="/Prog">Program</a>
+                        <a href="/Program">Program</a>
                     </div>
                     <div>
                         <a href="/About">About</a>
                     </div>
                 </div>
                 <div className="flex w-32 justify-between">
-                    <h2>UserName</h2>
+                    <a href="/editProfile">UserName</a>
                     <div className="h-8">
                        <AccountCircleIcon />
                     </div>
