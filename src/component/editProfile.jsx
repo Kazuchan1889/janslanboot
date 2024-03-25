@@ -3,8 +3,8 @@ import { TextField } from "@mui/material";
 
 function EditProfile(){
     return(
-        <section className="back p-4">
-            <div className="text-left">
+        <section className="back p-4 h-screen">
+            <div className="text-left ">
                 <h1>Edit Profile</h1>
             </div>
             <div className="flex flex-col items-center">

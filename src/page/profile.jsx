@@ -1,6 +1,5 @@
 import React from "react";
 import Sidebar from "../component/sidebar";
-import AdminContent from "../component/adminContent";
 import Set from "../component/userprof";
 
 function AdminPage() {

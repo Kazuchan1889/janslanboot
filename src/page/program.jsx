@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../component/navbar";
 import Userpprog from "../component/userpageprogram";
 
-function UserPage(){
+function ProgramPage(){
     return(
         <section>
             <NavBar />
@@ -14,4 +14,4 @@ function UserPage(){
     )
 }
 
-export default UserPage
+export default ProgramPage

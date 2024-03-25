@@ -3,7 +3,7 @@ import NavBar from "../component/navbar";
 import UserLPAbt from "../component/userLPAAbout";
 
 
-function UserPage(){
+function AboutPage(){
     return(
         <section>
             <NavBar />
@@ -15,4 +15,4 @@ function UserPage(){
     )
 }
 
-export default UserPage
+export default AboutPage
