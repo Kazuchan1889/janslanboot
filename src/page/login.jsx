@@ -14,10 +14,10 @@ function Login() {
 
     const sub = async (e) => {
         e.preventDefault();
-        try{
+        try {
             navigate("/adminDashboard");
             alert("Login Success");
-        }catch{
+        } catch {
             console.err("Wrong")
         }
     }
@@ -33,7 +33,7 @@ function Login() {
                         <h1 className="font-bold text-3xl">Sign In</h1>
                     </div>
                     <div className="w-full pl-12 pr-12">
-                        <form action="" onSubmit={ sub }>
+                        <form action="" onSubmit={sub}>
                             <div className="mb-4 mt-4">
                                 <TextField
                                     type="text"

@@ -15,7 +15,7 @@ function UserLPabout() {
                         <h1>We are Hexaon</h1>
                         <h1>Business Mitrasindo</h1>
                         <p className="mt-8 pr-16 text-2xl">
-                            Established on July 14, 2008, PT Hexaon Business Mitrasindo or better known as Hexaon has become a leading provider of integrated technology in Indonesia.  Hexaon always offer cutting edge technology with solutions that representative as client requirements accurately with the low of total cost of ownership, but with a comprehensive and integrated solution.
+                            Established on July 14, 2008, PT Hexaon Business Mitrasindo or better known as Hexaon has become a leading provider of integrated technology in Indonesia. Hexaon always offer cutting edge technology with solutions that representative as client requirements accurately with the low of total cost of ownership, but with a comprehensive and integrated solution.
                         </p>
                         <Button
                             type="submit"

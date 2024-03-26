@@ -3,14 +3,28 @@ import Button from "@mui/material/Button";
 import Pipel from "../asset/pipel.png";
 import Footer from "./footer";
 function UserLP() {
+    const Course = [
+        {
+            title: 'Front-End',
+            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!',
+        },
+        {
+            title: 'Fullstack',
+            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!',
+        },
+        {
+            title: 'Back-End',
+            desc: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!',
+        },
+    ]
     return (
         <section className="">
             <div className="usrLPBack">
                 <div className="h-full flex flex-row">
-                    <div className="w-2/3 text-left p-8 text-3xl font-bold text-48px">
+                    <div className="w-2/3 text-left p-8 text-3xl font-bold">
                         <h1>Jadilah Developer Profesional</h1>
                         <h1>Bersama HBM Bootcamp</h1>
-                        <p className="mt-8 pr-16 text-3xl">
+                        <p className="mt-8 pr-16 text-2xl">
                             Lebih dari 1200+ lulusan program intensif Dicoding telah mendapatkan pekerjaan. Dapatkan potongan subsidi hingga 9 juta rupiah untuk paket pelatihan React dan Back-End Developer.<br />    Terbatas untuk 5 peserta!
                         </p>
                         <Button
@@ -49,60 +63,26 @@ function UserLP() {
                         <h1>Daftar Harga</h1>
                     </div>
                     <div className="pt-4 flex flex-row content-around text-xl">
-                        <div className="flex flex-col w-1/3 p-4">
-                            <div className="text-3xl mb-4 font-bold">
-                                <h1>Front-End</h1>
+                        {Course.map((course, index) => (
+                            <div className="flex flex-col w-1/3 p-4">
+                                <div className="text-3xl mb-4 font-bold">
+                                    <h1>{course.title}</h1>
+                                </div>
+                                <div className="mb-4">
+                                    <p className="text-justify">
+                                        {course.desc}
+                                    </p>
+                                </div>
+                                <div className="">
+                                    <Button
+                                        type="submit"
+                                        variant="contained"
+                                    >
+                                        DAFTAR
+                                    </Button>
+                                </div>
                             </div>
-                            <div className="mb-4">
-                                <p className="text-justify">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
-                                </p>
-                            </div>
-                            <div className="">
-                                <Button
-                                    type="submit"
-                                    variant="contained"
-                                >
-                                    DAFTAR
-                                </Button>
-                            </div>
-                        </div>
-                        <div className="flex flex-col w-1/3 p-4">
-                            <div className="text-3xl mb-4 font-bold">
-                                <h1>Full Stack</h1>
-                            </div>
-                            <div className="mb-4">
-                                <p className="text-justify">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
-                                </p>
-                            </div>
-                            <div className="">
-                                <Button
-                                    type="submit"
-                                    variant="contained"
-                                >
-                                    DAFTAR
-                                </Button>
-                            </div>
-                        </div>
-                        <div className="flex flex-col w-1/3 p-4">
-                            <div className="text-3xl mb-4 font-bold">
-                                <h1>Back-End</h1>
-                            </div>
-                            <div className="mb-4">
-                                <p className="text-justify">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia sequi aperiam impedit, in beatae reiciendis corrupti quas eos quos, eaque, debitis placeat dicta magnam sapiente voluptates obcaecati dignissimos esse fugit nisi nihil reprehenderit? Eligendi, earum eum dolorum quaerat error magnam! Magnam esse quasi soluta quae ex sapiente ipsum repellendus ipsam!
-                                </p>
-                            </div>
-                            <div className="">
-                                <Button
-                                    type="submit"
-                                    variant="contained"
-                                >
-                                    DAFTAR
-                                </Button>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </div>
