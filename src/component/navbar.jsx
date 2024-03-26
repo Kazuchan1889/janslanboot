@@ -9,20 +9,20 @@ function NavBar() {
                 <div className="w-8">
                     <img src={Logos} alt="" />
                 </div>
-                <div className="flex w-1/3 justify-between font-bold ">
-                    <div>
-                        <a href="/userDashboard">Home</a>
+                <div className="flex w-1/3 justify-between font-bold text-5xl">
+                    <div >
+                        <a  href="/userDashboard" className="hover:text-sky-500 ease-in duration-300 size-28">Home</a>
                     </div>
-                    <div>
-                        <a href="/Program">Program</a>
+                    <div className="text-2xl ">
+                        <a href="/Program" className="hover:text-sky-500 ease-in duration-300">Program</a>
                     </div>
-                    <div>
-                        <a href="/About">About</a>
+                    <div className="text-2xl ">
+                        <a href="/About" className="hover:text-sky-500 ease-in duration-300">About</a>
                     </div>
                 </div>
                 <div className="flex w-32 justify-between">
-                    <a href="/editProfile">UserName</a>
-                    <div className="h-8">
+                    <a href="/editProfile" className="text-xl">UserName</a>
+                    <div className="h-8 ">
                        <AccountCircleIcon />
                     </div>
                 </div>
