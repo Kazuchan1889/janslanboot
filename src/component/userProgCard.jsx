@@ -44,6 +44,7 @@ function UserProgCard() {
                                     type="submit"
                                     variant=""
                                     fullWidth
+                                    href="*"
                                 >
                                     DAFTAR
                                 </Button>

@@ -30,6 +30,7 @@ function UserLP() {
                         <Button
                             type="submit"
                             variant="contained"
+                            href="*"
                         >
                             DAFTAR
                         </Button>
@@ -77,6 +78,7 @@ function UserLP() {
                                     <Button
                                         type="submit"
                                         variant="contained"
+                                        href="*"
                                     >
                                         DAFTAR
                                     </Button>

@@ -40,7 +40,7 @@ function UserLPProg() {
           </div>
         </div>
       </div>
-      <div className="h-full w-full px-8 py-16 ">
+      <div className="h-full w-full px-8 py-16 " id="midle">
         <UserProgCard />
       </div>
       <div className="bg-gray-800 text-white px-8 py-8 w-full h-full">

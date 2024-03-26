@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className="">
+        <footer className=" border-t-2 border-sky-700">
             <div className="container mx-auto flex flex-wrap justify-center">
                 <div className="w-full lg:w-1/3 lg:text-left text-center mb-6 lg:mb-0">
                     <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
@@ -13,10 +13,9 @@ function Footer() {
                 <div className="w-full lg:w-1/3 lg:text-left text-center mb-6 lg:mb-0">
                     <h3 className="text-lg font-semibold mb-4">Links</h3>
                     <ul className="list-none p-0">
-                        <li><a href="/" className="text-white hover:text-gray-400">Home</a></li>
-                        <li><a href="/" className="text-white hover:text-gray-400">About Us</a></li>
-                        <li><a href="/" className="text-white hover:text-gray-400">Services</a></li>
-                        <li><a href="/" className="text-white hover:text-gray-400">Contact Us</a></li>
+                        <li><a href="/userDashboard" className="text-white hover:text-gray-400">Home</a></li>
+                        <li><a href="/About" className="text-white hover:text-gray-400">About Us</a></li>
+                        <li><a href="/Program" className="text-white hover:text-gray-400">program</a></li>
                     </ul>
                 </div>
                 <div className="w-full lg:w-1/3 lg:text-left text-center">
