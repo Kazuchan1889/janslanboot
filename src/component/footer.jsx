@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
     return (
-        <footer className=" border-t-2 border-sky-700">
+        <footer className="">
             <div className="container mx-auto flex flex-wrap justify-center">
                 <div className="w-full lg:w-1/3 lg:text-left text-center mb-6 lg:mb-0">
                     <h3 className="text-lg font-semibold mb-4">Contact Us</h3>
