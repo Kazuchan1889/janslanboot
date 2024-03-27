@@ -18,7 +18,7 @@ function UserProgCard() {
             altimage: 'pic2',
         },
         {
-            title: 'Beck-End',
+            title: 'Back-End',
             desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, quasi.',
             image: pict3,
             altimage: 'pic3',
