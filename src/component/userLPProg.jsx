@@ -34,13 +34,11 @@ function UserLPProg() {
             <ReactPlayer
               url="https://youtu.be/Ak6VTSekGP4?si=lSsvMeZwghRvTV82"
               controls
-              width="100%"
-              height="100%"
             />
           </div>
         </div>
       </div>
-      <div className="h-full w-full px-8 py-16 " id="midle">
+      <div className="h-full w-full px-8 py-16 flex justify-center" >
         <UserProgCard />
       </div>
       <div className="bg-gray-800 text-white px-8 py-8 w-full h-full">

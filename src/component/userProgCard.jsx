@@ -25,10 +25,10 @@ function UserProgCard() {
         },
     ]
     return (
-        <div className="container ">
-            <div className="flex flex-row gap-8 justify-center">
+        <div className="container w-full">
+            <div className="flex flex-row gap-12 justify-center">
                 {ProgramCard.map((card, index) => (
-                    <div className="bg-white w-1/4 h-96 flex-col rounded-3xl">
+                    <div className="bg-white w-1/4 h-96 flex-col rounded-3xl border">
                         <div className="w-full h-36 ">
                             <img className="object-cover object-top w-full h-full rounded-t-3xl " src={card.image} alt={card.altimage} />
                         </div>
