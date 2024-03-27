@@ -11,7 +11,7 @@ function NavBar() {
                 </div>
                 <div className="flex w-1/3 justify-between font-bold ">
                     <div >
-                        <a  href="/userDashboard" className="hover:text-sky-500 ease-in duration-300 size-28">Home</a>
+                        <a href="/userDashboard" className="hover:text-sky-500 ease-in duration-300 size-28">Home</a>
                     </div>
                     <div className="text-2xl ">
                         <a href="/Program" className="hover:text-sky-500 ease-in duration-300">Program</a>
@@ -23,7 +23,7 @@ function NavBar() {
                 <div className="flex w-32 justify-between">
                     <a href="/editProfile" className="text-xl">UserName</a>
                     <div className="h-8 ">
-                       <AccountCircleIcon />
+                        <AccountCircleIcon />
                     </div>
                 </div>
             </div>
