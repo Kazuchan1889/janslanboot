@@ -9,7 +9,7 @@ function NavBar() {
                 <div className="w-8">
                     <img src={Logos} alt="" />
                 </div>
-                <div className="flex w-1/3 justify-between font-bold text-5xl">
+                <div className="flex w-1/3 justify-between font-bold ">
                     <div >
                         <a  href="/userDashboard" className="hover:text-sky-500 ease-in duration-300 size-28">Home</a>
                     </div>
